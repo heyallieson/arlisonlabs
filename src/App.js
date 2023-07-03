@@ -3,6 +3,7 @@ import "@fontsource/dm-sans";
 import Ahero from "./images/ahero.png";
 import Journaleo from "./images/journaleo.png";
 import Pomo from "./images/pomo.png";
+import Dino from "./images/dino.png";
 
 function App() {
   return (
@@ -24,7 +25,28 @@ function App() {
       </div>
 
       <div className="mt-24">
-        <a href="https://journaleo.app/" target="_blank">
+        <a href="https://feedbackdino.com/" target="_blank">
+          <div className="card flex">
+            <div>
+              <img src={Dino} width="64px" alt="Dino logo" />
+            </div>
+            <div className="ml-24">
+              <div className="flex">
+                <p className="b2">Feedback Dino</p>
+                <div className="gray badge">2023</div>
+                <div className="green badge">Active</div>
+              </div>
+              <p className="mt-4 secondary">
+                Run contextual user research tests and identify insights with
+                the help of AI.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://apps.apple.com/app/journaleo-visual-goal-diary/id6447067070"
+          target="_blank"
+        >
           <div className="card flex">
             <div>
               <img src={Journaleo} width="64px" alt="Journaleo logo" />
