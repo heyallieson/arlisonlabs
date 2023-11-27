@@ -25,20 +25,37 @@ function App() {
       </div>
 
       <div className="mt-24">
-        <a href="https://feedbackdino.com/" target="_blank">
+        <a href="https://dinofeedback.com/" target="_blank">
           <div className="card flex">
             <div>
               <img src={Dino} width="64px" alt="Dino logo" />
             </div>
             <div className="ml-24">
               <div className="flex">
-                <p className="b2">Feedback Dino</p>
+                <p className="b2">Dino Feedback</p>
                 <div className="gray badge">2023</div>
                 <div className="green badge">Active</div>
               </div>
               <p className="mt-4 secondary">
                 Run contextual user research tests and identify insights with
                 the help of AI.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="https://aheroapp.com/" target="_blank">
+          <div className="card flex">
+            <div>
+              <img src={Ahero} width="64px" alt="Ahero logo" />
+            </div>
+            <div className="ml-24">
+              <div className="flex">
+                <p className="b2">Ahero</p>
+                <div className="gray badge">2020</div>
+                <div className="green badge">Profit</div>
+              </div>
+              <p className="mt-4 secondary">
+                Blocks online distractions for the best deep work possible
               </p>
             </div>
           </div>
@@ -83,23 +100,7 @@ function App() {
             </div>
           </div>
         </a>
-        <a href="https://aheroapp.com/" target="_blank">
-          <div className="card flex">
-            <div>
-              <img src={Ahero} width="64px" alt="Ahero logo" />
-            </div>
-            <div className="ml-24">
-              <div className="flex">
-                <p className="b2">Ahero</p>
-                <div className="gray badge">2020</div>
-                <div className="green badge">Profit</div>
-              </div>
-              <p className="mt-4 secondary">
-                Blocks online distractions for the best deep work possible
-              </p>
-            </div>
-          </div>
-        </a>
+
         <div className="flex discontinued-card">
           <div className="circle-img">👕</div>
           <div className="ml-24">
