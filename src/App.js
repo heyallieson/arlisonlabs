@@ -25,14 +25,14 @@ function App() {
       </div>
 
       <div className="mt-24">
-        <a href="https://dinofeedback.com/" target="_blank">
+        <a href="https://aiuserresearch.com/" target="_blank">
           <div className="card flex">
             <div>
               <img src={Dino} width="64px" alt="Dino logo" />
             </div>
             <div className="ml-24">
               <div className="flex">
-                <p className="b2">Dino Feedback</p>
+                <p className="b2">AI User Research</p>
                 <div className="gray badge">2023</div>
                 <div className="green badge">Active</div>
               </div>
